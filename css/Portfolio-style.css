@@ -49,6 +49,15 @@ header nav a:hover{
     width: 100%;
     pointer-events: none;
 }
+
+.moon{
+    position: relative;
+    align-items: top;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+}
+
 .layer{
     height: 100%;
     bottom: 0;
@@ -77,4 +86,24 @@ header nav a:hover{
 }
 .About p{
     font-size: 17px;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
