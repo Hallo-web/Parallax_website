@@ -22,7 +22,7 @@ header{
 }
 header nav a{
     margin-left: 80px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     transition: .4s;
 }
@@ -170,10 +170,11 @@ nav .container{
 .big-title{
     position: absolute;
     z-index: 30;
-    line-height: 4rem;
+    line-height: 5rem;
     top: calc(50% - 2rem);
     width: 100%;
     text-align: center;
+    right: 2%;
     font-size: 5rem;
     font-weight: 600;
     color: #fff;
