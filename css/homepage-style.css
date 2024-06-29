@@ -83,11 +83,11 @@ header nav a:hover{
     min-height: 100vh;
     background-color: #06001b;
     color: white;
-    padding: 0 100px;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 80px;
+    gap: 30px;
 }
 
 .About h1{

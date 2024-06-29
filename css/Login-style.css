@@ -221,3 +221,29 @@ a:hover{
 		justify-content: center;
 	}
 }
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    z-index: 99;
+    color: #43e0f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 80px;
+}
+
+header nav a{
+    margin-left: 80px;
+    color: #43e0f7;
+    font-size: 25px;
+    transition: .4s;
+}
+
+header nav .active,
+header nav a:hover{
+    color: #000000;
+}
