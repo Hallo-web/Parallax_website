@@ -7,6 +7,7 @@ const section = document.querySelector("section");
 const image_container = document.querySelector(".imgContainer");
 const opacity = document.querySelectorAll(".opacity");
 const border = document.querySelector(".border");
+const myimages = document.querySelector(".myimages");
 
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
