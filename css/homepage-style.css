@@ -35,10 +35,6 @@ header{
     align-items: center;
     width: 100%;
     padding: 35px 80px;
-    background-color: #000;
-    background-image: linear-gradient(to right, Lightblue 0%, Darkblue 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 header nav a{
@@ -51,7 +47,7 @@ header nav a{
 
 header nav .active,
 header nav a:hover{
-    color: #43e0f7;
+    color: turquoise;
 }
 
 .Home h1{
@@ -60,7 +56,7 @@ header nav a:hover{
     font-size: 100px;
     z-index: 99;
     background-color: #000;
-    background-image: linear-gradient(to right, Darkblue 0%, lightblue 100%);
+    background-image: linear-gradient(to right, turquoise 5%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

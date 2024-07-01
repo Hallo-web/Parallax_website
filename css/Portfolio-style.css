@@ -43,6 +43,9 @@ header nav a:hover{
     color: white;
     font-size: 100px;
     z-index: 99;
+    background-image: linear-gradient(to left, white  10%, turquoise 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .Home img{
     position: absolute;
