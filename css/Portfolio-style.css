@@ -34,7 +34,9 @@ header nav a{
     font-size: 25px;
     transition: .4s;
 }
-header nav .active,
+header nav .active {
+    color: greenyellow;
+  }
 header nav a:hover{
     color: #43e0f7;
 }

@@ -45,7 +45,10 @@ header nav a{
 }
 
 
-header nav .active,
+header nav .active {
+    color: greenyellow;
+}
+
 header nav a:hover{
     color: turquoise;
 }

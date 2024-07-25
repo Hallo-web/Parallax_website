@@ -22,13 +22,18 @@ header{
 }
 header nav a{
     margin-left: 80px;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 25px;
     transition: .4s;
 }
-header nav .active,
+header nav .active {
+    color: greenyellow;
+  }
 header nav a:hover{
-    color: #43e0f7;
+    color: white;
+}
+header nav .bar {
+    color: white;
 }
 .Home h1{
     position: absolute;
@@ -37,9 +42,30 @@ header nav a:hover{
     z-index: 99;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    margin: 0rem;
+    overflow: hidden;
+  }
+  
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none;
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
 
 .container{
     max-width: 70rem;
@@ -118,6 +144,7 @@ nav .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .logo{
@@ -261,11 +288,4 @@ section .container > *{
     .title{
         font-size: 1.2rem;
     }
-}
-
-.myimages {
-    position: relative;
-    height: 50%;    
-    width: 50%;
-    transform: translateY(50px);
 }

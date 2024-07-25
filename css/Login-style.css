@@ -243,7 +243,9 @@ header nav a{
     transition: .4s;
 }
 
-header nav .active,
+header nav .active {
+	color: greenyellow;
+  }
 header nav a:hover{
     color: #000000;
 }
